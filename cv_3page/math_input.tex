@@ -1,0 +1,53 @@
+%Input file for frequently used maths symbols.
+
+\newcommand{\diff}[2]{\frac{{\rm d}#1}{{\rm d}#2}} %derivative
+\newcommand{\ndiff}[3]{\frac{{\rm d}^{#3}#1}{{\rm d}#2^{#3}}} %nth derivative
+\newcommand{\pdiff}[2]{\frac{\partial #1}{\partial #2}} %partial derivative
+\newcommand{\npdiff}[3]{\frac{\partial^{#3} #1}{\partial #2^{#3}}} %nth partial derivative
+\newcommand{\mixpdiff}[4]{\frac{\partial^{#4} #1}{\partial #2\partial #3}} %2nd order mixed pdiff
+\newcommand{\mixnpdiff}[6]{\frac{\partial^{#4} #1}{\partial #2^{#5}\partial #3^{#6}}} %nth order of 2 variable 
+
+
+\newcommand{\vel}[0]{ {\mathbf{u}} } %velocity field
+\newcommand{\Efi}[0]{ {\mathbf{E}} } %Electric field
+\newcommand{\Bfi}[0]{ {\mathbf{B}} } %Magnetic field
+\newcommand{\bfi}[0]{ {\mathbf{b}} } %perturbation mag field denoted by a small b
+\newcommand{\Sfi}[0]{ {\mathbf{S}} } %Poynting vector
+\newcommand{\jfi}[0]{ {\mathbf{j}} } %Current density
+\newcommand{\kv}[0]{{\mathbf{k}}}
+
+\newcommand{\bt}{{\bf{B_t}}} %transverse mag field
+\newcommand{\vt}{{\bf{v_t}}} %transverse velocity
+
+\newcommand{\nhat}{ {{\bf{\hat n}}} } %normal vector
+\newcommand{\xhat}{ {{\bf{\hat x}}} }
+\newcommand{\yhat}{ {{\bf{\hat y}}} }
+\newcommand{\zhat}{ {{\bf{\hat z}}} } %unit vectors x,y,z
+
+\newcommand{\boldnabla}{\mbox{\boldmath$\nabla$}} %del
+\newcommand{\dive }{ {\bf {\nabla}} \cdot }       %divergence
+\newcommand{\curl }{ {\bf {\nabla}} \times }      %curl
+\newcommand{\lap }{ {\bf\nabla}^2 }               %Laplacian
+\newcommand{\nab}{\bf{\nabla}}                    %bold nabla
+
+\newcommand{\noi}{\noindent}
+
+\newcommand{\dotprod}[2]{{\bf{#1}}\cdot{\bf{#2}}} %dot product
+\newcommand{\cross}[2]{{#1}\times{#2}}  %cross product
+
+\newcommand{\eql}{&=&}  %alignment equals   
+
+\newcommand{\bb}[1]{\left[#1\right]} %big square brackets
+\newcommand{\lr}[1]{\left(#1\right)} %left right brackets
+\newcommand{\lrc}[1]{\left\{#1\right\}}
+
+\newcommand{\ra}{\Rightarrow} %implies sign
+
+\newcommand{\barr}[1]{\overset{-}{#1}} %bars the quantity
+\newcommand{\toptild}[1]{\overset{\sim}{#1}} %puts a tilde over the quantity
+\newcommand{\at}[2]{\left.{#1}\right|_{#2}} %to put an evaluation line in.
+
+\newcommand{\inte}[4]{\int_{#1}^{#2}{#3}{{\rm d}#4}}
+
+\newcommand{\refer}[2]{[\textit{#1}., #2]}
+\newcommand{\degr}[1]{#1^{\circ}}
